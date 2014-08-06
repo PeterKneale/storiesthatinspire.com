@@ -11,6 +11,30 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>Storiesthatinspire.com</title>
+    <style>
+      .frame {
+          height: 25px;      /* equals max image height */
+          width: 160px;
+          border: 1px solid red;
+          white-space: nowrap;
+          
+          text-align: center; margin: 1em 0;
+      }
+      
+      .helper {
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+      }
+      
+      img {
+          background: #3A6F9A;
+          vertical-align: middle;
+          max-height: 25px;
+          max-width: 160px;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -18,7 +42,10 @@
       <div class="inner">
 
         <section id="main_content">
-          <img src="unnamed.jpg">
+          <div class=frame>
+              <span class="helper"></span>
+              <img src="unnamed.jpg" height=190 />
+          </div>
         </section>
 
       </div>
